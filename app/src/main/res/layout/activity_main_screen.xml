@@ -3,8 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".MainScreen">
+    android:layout_height="match_parent">
 
     <LinearLayout
         android:id="@+id/kostyl"
@@ -24,22 +23,31 @@
         android:layout_marginStart="15dp"
         android:layout_marginTop="55dp"/>
     <TextView
-        android:id="@+id/main_adress"
-        android:layout_below="@+id/yourhome"
+        android:id="@+id/TextViewmain_adress"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Загрузка данных...."
+        android:layout_below="@+id/yourhome"
+        android:text="г. Омск, ул. Ленина, д. 24"
         android:fontFamily="@font/montserrat_bold"
         android:textSize="12sp"
         android:textColor="#94949B"
         android:layout_marginStart="15dp" />
+    <EditText
+        android:id="@+id/adressEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TextViewmain_adress"
+        android:layout_centerHorizontal="false"
+        android:layout_marginTop="12sp"
+        android:hint="Enter address" />
     <ImageView
         android:layout_marginTop="20dp"
         android:layout_marginEnd="20dp"
         android:layout_width="60dp"
         android:layout_height="60dp"
         android:src="@drawable/setbu"
-        android:onClick="setting"
+        android:id="@+id/ImageViewSetting"
+        android:onClick="onSettingClick"
         android:layout_alignParentEnd="true"/>
 
 
@@ -48,16 +56,18 @@
         android:id="@+id/list"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical"
-        />
+        android:orientation="vertical">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
     <ImageView
         android:layout_marginBottom="40dp"
         android:layout_marginEnd="20dp"
         android:layout_width="60dp"
         android:layout_height="60dp"
         android:src="@drawable/btn_plus"
-        android:onClick="addR"
+        android:id="@+id/ImageViewAdd"
+        android:onClick="onAddClick"
         android:layout_alignParentBottom="true"
         android:layout_alignParentEnd="true"/>
-
 </RelativeLayout>

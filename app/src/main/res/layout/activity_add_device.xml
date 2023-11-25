@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+
+    tools:context=".Add.AddRoom">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:background="#272626">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:id="@+id/imageView_back"
+                android:src="@drawable/buttonback"
+                android:layout_marginTop="15dp"
+                android:layout_marginStart="15dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Добавить устройство"
+                android:layout_gravity="center"
+                android:layout_marginStart="30dp"
+                android:textStyle="bold"
+                android:textSize="24dp"
+                android:textColor="@color/white"/>
+        </LinearLayout>
+    </LinearLayout>
+    <EditText
+        android:layout_marginTop="50dp"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:id="@+id/editText_device_name"
+        android:layout_gravity="center"
+        android:paddingStart="10dp"
+        android:textStyle="bold"
+        android:hint="Название устройства"
+        android:textColorHint="#94949B"
+        android:background="@drawable/button_shape"/>
+    <EditText
+        android:id="@+id/editText_device_id"
+        android:layout_marginTop="15dp"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:paddingStart="10dp"
+        android:textStyle="bold"
+        android:hint="Идентификатор устройства"
+        android:textColorHint="#94949B"
+        android:background="@drawable/button_shape"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Выбрать комнату"
+            android:textStyle="bold"
+            android:layout_marginStart="35dp"
+            android:textSize="18sp"
+            android:textColor="#94949B"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginEnd="35dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/device_1"/>
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/device_2"/>
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="20dp"
+
+            android:src="@drawable/device_3"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginEnd="35dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/device_4"/>
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/device_5"/>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="230dp"
+        android:id="@+id/button_save"
+        android:layout_height="60dp"
+        android:layout_marginTop="90dp"
+        android:text="Сохранить"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:backgroundTint="#0B50A0"
+        android:textSize="45px" />
+</LinearLayout>

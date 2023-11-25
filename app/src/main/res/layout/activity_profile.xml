@@ -59,7 +59,7 @@
             android:gravity="start" />
 
         <EditText
-            android:id="@+id/username"
+            android:id="@+id/EditTextUsername"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@id/username_label"
@@ -69,12 +69,12 @@
             android:id="@+id/email_label"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@id/username"
+            android:layout_below="@id/EditTextUsername"
             android:text="Электронная почта"
             android:gravity="start" />
 
         <EditText
-            android:id="@+id/email"
+            android:id="@+id/EditTextEmail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@id/email_label"
@@ -84,12 +84,12 @@
             android:id="@+id/addres_label"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@id/email"
+            android:layout_below="@id/EditTextEmail"
             android:text="Адрес"
             android:gravity="start" />
 
         <EditText
-            android:id="@+id/address"
+            android:id="@+id/EditTextAdress"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@id/addres_label"
@@ -106,7 +106,7 @@
         android:layout_marginBottom="75dp">
 
         <Button
-            android:id="@+id/save"
+            android:id="@+id/ButtonSave"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="100dp"
@@ -115,10 +115,10 @@
             android:text="Сохранить" />
 
         <Button
-            android:id="@+id/exit"
+            android:id="@+id/ButtonExit"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@id/save"
+            android:layout_below="@id/ButtonSave"
             android:layout_marginLeft="100dp"
             android:layout_marginTop="15dp"
             android:layout_marginRight="100dp"

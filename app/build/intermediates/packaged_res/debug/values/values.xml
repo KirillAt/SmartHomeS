@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="blackbut">#2A2A37</color>
+    <color name="bluebut">#0B50A0</color>
+    <color name="colorPrimary">#0B509F</color>
+    <color name="gray">#94949B</color>
+    <color name="invis">#000B50A0</color>
+    <color name="light_blue">#3B30CCE1</color>
+    <color name="prod">#2A2A36</color>
+    <color name="redbut">#FF984E4F</color>
+    <color name="sacv">#0B50A0</color>
+    <color name="very_red_but">#FA1624</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">SmartHome</string>
+    <style name="Base.Theme.SmartHome" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="Theme.SmartHome" parent="Base.Theme.SmartHome"/>
+    <style name="black_btn" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/blackbut</item>
+        <item name="cornerRadius">12dp</item>
+    </style>
+    <style name="blue_btn" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/bluebut</item>
+        <item name="cornerRadius">12dp</item>
+    </style>
+    <style name="border_pin_st" parent="Widget.AppCompat.Button.Colored">
+        <item name="background">@drawable/border_pin</item>
+    </style>
+    <style name="code_btn" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorOnBackground">@color/invis</item>
+        <item name="cornerRadius">10dp</item>
+        <item name="borderWidth">2px</item>
+    </style>
+    <style name="red_btn" parent="Widget.AppCompat.Button">
+        <item name="background">@color/redbut</item>
+        <item name="colorPrimary">@color/redbut</item>
+        <item name="cornerRadius">12dp</item>
+    </style>
+    <style name="slider" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="trackColorActive">@color/bluebut</item>
+        <item name="trackColorInactive">@color/gray</item>
+        <item name="thumbColor">@color/bluebut</item>
+        <item name="thumbRadius">5dp</item>
+    </style>
+    <style name="switch_da" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="track">@drawable/switch_test_track</item>
+        <item name="android:colorControlActivated">@color/bluebut</item>
+        <item name="android:thumb">@drawable/switch_test</item>
+        <item name="colorSwitchThumbNormal">@color/bluebut</item>
+        <item name="android:colorForeground">@color/gray</item>
+    </style>
+    <style name="very_redbtn" parent="Widget.AppCompat.Button">
+        <item name="background">@color/very_red_but</item>
+        <item name="colorPrimary">@color/very_red_but</item>
+        <item name="cornerRadius">12dp</item>
+    </style>
+</resources>

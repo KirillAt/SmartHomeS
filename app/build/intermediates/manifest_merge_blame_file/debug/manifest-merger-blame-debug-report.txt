@@ -1,0 +1,172 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.smartlab.smarthome"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="33"
+8-->D:\Project_AS\SmartHome\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->D:\Project_AS\SmartHome\app\src\main\AndroidManifest.xml
+10
+11    <permission
+11-->[androidx.core:core:1.9.0] C:\Users\atras\.gradle\caches\transforms-3\256c6597bc3e6f8192abd6f9b27a26ab\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+12        android:name="com.example.smartlab.smarthome.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+12-->[androidx.core:core:1.9.0] C:\Users\atras\.gradle\caches\transforms-3\256c6597bc3e6f8192abd6f9b27a26ab\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+13        android:protectionLevel="signature" />
+13-->[androidx.core:core:1.9.0] C:\Users\atras\.gradle\caches\transforms-3\256c6597bc3e6f8192abd6f9b27a26ab\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+14
+15    <uses-permission android:name="com.example.smartlab.smarthome.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+15-->[androidx.core:core:1.9.0] C:\Users\atras\.gradle\caches\transforms-3\256c6597bc3e6f8192abd6f9b27a26ab\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+15-->[androidx.core:core:1.9.0] C:\Users\atras\.gradle\caches\transforms-3\256c6597bc3e6f8192abd6f9b27a26ab\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+16
+17    <application
+17-->D:\Project_AS\SmartHome\app\src\main\AndroidManifest.xml:5:5-66:19
+18        android:allowBackup="true"
+18-->D:\Project_AS\SmartHome\app\src\main\AndroidManifest.xml:6:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.9.0] C:\Users\atras\.gradle\caches\transforms-3\256c6597bc3e6f8192abd6f9b27a26ab\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+20        android:dataExtractionRules="@xml/data_extraction_rules"
+20-->D:\Project_AS\SmartHome\app\src\main\AndroidManifest.xml:7:9-65
+21        android:debuggable="true"
+22        android:extractNativeLibs="false"
+23        android:fullBackupContent="@xml/backup_rules"
+23-->D:\Project_AS\SmartHome\app\src\main\AndroidManifest.xml:8:9-54
+24        android:icon="@mipmap/ic_launcher"
+24-->D:\Project_AS\SmartHome\app\src\main\AndroidManifest.xml:9:9-43
+25        android:label="@string/app_name"
+25-->D:\Project_AS\SmartHome\app\src\main\AndroidManifest.xml:10:9-41
+26        android:roundIcon="@mipmap/ic_launcher_round"
+26-->D:\Project_AS\SmartHome\app\src\main\AndroidManifest.xml:11:9-54
+27        android:supportsRtl="true"
+27-->D:\Project_AS\SmartHome\app\src\main\AndroidManifest.xml:12:9-35
+28        android:testOnly="true"
+29        android:theme="@style/Theme.SmartHome" >
+29-->D:\Project_AS\SmartHome\app\src\main\AndroidManifest.xml:13:9-47
+30        <activity
+30-->D:\Project_AS\SmartHome\app\src\main\AndroidManifest.xml:15:9-17:40
+31            android:name="com.example.smartlab.smarthome.Device.RangeHood"
+31-->D:\Project_AS\SmartHome\app\src\main\AndroidManifest.xml:16:13-45
+32            android:exported="false" />
+32-->D:\Project_AS\SmartHome\app\src\main\AndroidManifest.xml:17:13-37
+33        <activity
+33-->D:\Project_AS\SmartHome\app\src\main\AndroidManifest.xml:18:9-20:40
+34            android:name="com.example.smartlab.smarthome.Device.Fan"
+34-->D:\Project_AS\SmartHome\app\src\main\AndroidManifest.xml:19:13-39
+35            android:exported="false" />
+35-->D:\Project_AS\SmartHome\app\src\main\AndroidManifest.xml:20:13-37
+36        <activity
+36-->D:\Project_AS\SmartHome\app\src\main\AndroidManifest.xml:21:9-23:40
+37            android:name="com.example.smartlab.smarthome.Device.Temperature"
+37-->D:\Project_AS\SmartHome\app\src\main\AndroidManifest.xml:22:13-47
+38            android:exported="false" />
+38-->D:\Project_AS\SmartHome\app\src\main\AndroidManifest.xml:23:13-37
+39        <activity
+39-->D:\Project_AS\SmartHome\app\src\main\AndroidManifest.xml:24:9-26:40
+40            android:name="com.example.smartlab.smarthome.Device.Conditioner"
+40-->D:\Project_AS\SmartHome\app\src\main\AndroidManifest.xml:25:13-47
+41            android:exported="false" />
+41-->D:\Project_AS\SmartHome\app\src\main\AndroidManifest.xml:26:13-37
+42        <activity
+42-->D:\Project_AS\SmartHome\app\src\main\AndroidManifest.xml:27:9-29:40
+43            android:name="com.example.smartlab.smarthome.Device.Light"
+43-->D:\Project_AS\SmartHome\app\src\main\AndroidManifest.xml:28:13-41
+44            android:exported="false" />
+44-->D:\Project_AS\SmartHome\app\src\main\AndroidManifest.xml:29:13-37
+45        <activity
+45-->D:\Project_AS\SmartHome\app\src\main\AndroidManifest.xml:30:9-32:40
+46            android:name="com.example.smartlab.smarthome.Add.AddDevice"
+46-->D:\Project_AS\SmartHome\app\src\main\AndroidManifest.xml:31:13-42
+47            android:exported="false" />
+47-->D:\Project_AS\SmartHome\app\src\main\AndroidManifest.xml:32:13-37
+48        <activity
+48-->D:\Project_AS\SmartHome\app\src\main\AndroidManifest.xml:33:9-35:40
+49            android:name="com.example.smartlab.smarthome.Add.AddRoom"
+49-->D:\Project_AS\SmartHome\app\src\main\AndroidManifest.xml:34:13-40
+50            android:exported="false" />
+50-->D:\Project_AS\SmartHome\app\src\main\AndroidManifest.xml:35:13-37
+51        <activity
+51-->D:\Project_AS\SmartHome\app\src\main\AndroidManifest.xml:36:9-38:40
+52            android:name="com.example.smartlab.smarthome.Login.Profile"
+52-->D:\Project_AS\SmartHome\app\src\main\AndroidManifest.xml:37:13-42
+53            android:exported="false" />
+53-->D:\Project_AS\SmartHome\app\src\main\AndroidManifest.xml:38:13-37
+54        <activity
+54-->D:\Project_AS\SmartHome\app\src\main\AndroidManifest.xml:39:9-41:40
+55            android:name="com.example.smartlab.smarthome.Main.MainScreen"
+55-->D:\Project_AS\SmartHome\app\src\main\AndroidManifest.xml:40:13-44
+56            android:exported="false" />
+56-->D:\Project_AS\SmartHome\app\src\main\AndroidManifest.xml:41:13-37
+57        <activity
+57-->D:\Project_AS\SmartHome\app\src\main\AndroidManifest.xml:42:9-44:40
+58            android:name="com.example.smartlab.smarthome.Login.Adress"
+58-->D:\Project_AS\SmartHome\app\src\main\AndroidManifest.xml:43:13-41
+59            android:exported="false" />
+59-->D:\Project_AS\SmartHome\app\src\main\AndroidManifest.xml:44:13-37
+60        <activity
+60-->D:\Project_AS\SmartHome\app\src\main\AndroidManifest.xml:45:9-47:40
+61            android:name="com.example.smartlab.smarthome.Login.PIN_2"
+61-->D:\Project_AS\SmartHome\app\src\main\AndroidManifest.xml:46:13-40
+62            android:exported="false" />
+62-->D:\Project_AS\SmartHome\app\src\main\AndroidManifest.xml:47:13-37
+63        <activity
+63-->D:\Project_AS\SmartHome\app\src\main\AndroidManifest.xml:48:9-50:40
+64            android:name="com.example.smartlab.smarthome.Login.PIN_creation"
+64-->D:\Project_AS\SmartHome\app\src\main\AndroidManifest.xml:49:13-47
+65            android:exported="false" />
+65-->D:\Project_AS\SmartHome\app\src\main\AndroidManifest.xml:50:13-37
+66        <activity
+66-->D:\Project_AS\SmartHome\app\src\main\AndroidManifest.xml:51:9-53:40
+67            android:name="com.example.smartlab.smarthome.Login.Registration"
+67-->D:\Project_AS\SmartHome\app\src\main\AndroidManifest.xml:52:13-47
+68            android:exported="false" />
+68-->D:\Project_AS\SmartHome\app\src\main\AndroidManifest.xml:53:13-37
+69        <activity
+69-->D:\Project_AS\SmartHome\app\src\main\AndroidManifest.xml:54:9-56:40
+70            android:name="com.example.smartlab.smarthome.Login.Login"
+70-->D:\Project_AS\SmartHome\app\src\main\AndroidManifest.xml:55:13-40
+71            android:exported="false" />
+71-->D:\Project_AS\SmartHome\app\src\main\AndroidManifest.xml:56:13-37
+72        <activity
+72-->D:\Project_AS\SmartHome\app\src\main\AndroidManifest.xml:57:9-65:20
+73            android:name="com.example.smartlab.smarthome.Main.MainActivity"
+73-->D:\Project_AS\SmartHome\app\src\main\AndroidManifest.xml:58:13-46
+74            android:exported="true" >
+74-->D:\Project_AS\SmartHome\app\src\main\AndroidManifest.xml:59:13-36
+75            <intent-filter>
+75-->D:\Project_AS\SmartHome\app\src\main\AndroidManifest.xml:60:13-64:29
+76                <action android:name="android.intent.action.MAIN" />
+76-->D:\Project_AS\SmartHome\app\src\main\AndroidManifest.xml:61:17-69
+76-->D:\Project_AS\SmartHome\app\src\main\AndroidManifest.xml:61:25-66
+77
+78                <category android:name="android.intent.category.LAUNCHER" />
+78-->D:\Project_AS\SmartHome\app\src\main\AndroidManifest.xml:63:17-77
+78-->D:\Project_AS\SmartHome\app\src\main\AndroidManifest.xml:63:27-74
+79            </intent-filter>
+80        </activity>
+81
+82        <provider
+82-->[androidx.emoji2:emoji2:1.2.0] C:\Users\atras\.gradle\caches\transforms-3\ed5c533cc70e7b3b025c1d493dfcade0\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+83            android:name="androidx.startup.InitializationProvider"
+83-->[androidx.emoji2:emoji2:1.2.0] C:\Users\atras\.gradle\caches\transforms-3\ed5c533cc70e7b3b025c1d493dfcade0\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+84            android:authorities="com.example.smartlab.smarthome.androidx-startup"
+84-->[androidx.emoji2:emoji2:1.2.0] C:\Users\atras\.gradle\caches\transforms-3\ed5c533cc70e7b3b025c1d493dfcade0\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+85            android:exported="false" >
+85-->[androidx.emoji2:emoji2:1.2.0] C:\Users\atras\.gradle\caches\transforms-3\ed5c533cc70e7b3b025c1d493dfcade0\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+86            <meta-data
+86-->[androidx.emoji2:emoji2:1.2.0] C:\Users\atras\.gradle\caches\transforms-3\ed5c533cc70e7b3b025c1d493dfcade0\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+87                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+87-->[androidx.emoji2:emoji2:1.2.0] C:\Users\atras\.gradle\caches\transforms-3\ed5c533cc70e7b3b025c1d493dfcade0\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+88                android:value="androidx.startup" />
+88-->[androidx.emoji2:emoji2:1.2.0] C:\Users\atras\.gradle\caches\transforms-3\ed5c533cc70e7b3b025c1d493dfcade0\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+89            <meta-data
+89-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\atras\.gradle\caches\transforms-3\41ce1ad912a5e3041715fcd6269c5d09\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+90                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+90-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\atras\.gradle\caches\transforms-3\41ce1ad912a5e3041715fcd6269c5d09\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+91                android:value="androidx.startup" />
+91-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\atras\.gradle\caches\transforms-3\41ce1ad912a5e3041715fcd6269c5d09\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+92        </provider>
+93    </application>
+94
+95</manifest>
